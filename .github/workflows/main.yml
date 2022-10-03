@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: paulthomas2107/gitActionsWithAnia
+      uses: paulthomas2107/gitActionsWithAnia@main
       with:
         who-to-greet: 'Paul Thomas'
     # Use the output from the `hello` step
